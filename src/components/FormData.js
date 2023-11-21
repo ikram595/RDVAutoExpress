@@ -26,6 +26,8 @@ const FormData = () => {
             Corps diplomatique (CD)
           </option>
         </select>
+        {/***affichage conditionnel */}
+
         <span className="labels">N° d'immatriculation</span>
         <div className="immatricule">
           <NumericInput maxDigits={3} placeHolder="Serie " />
