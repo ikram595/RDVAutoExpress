@@ -5,12 +5,11 @@ const NumericInput = ({ maxDigits, placeHolder }) => {
 
   const handleInputChange = (event) => {
     const inputText = event.target.value;
-    const numericValue = inputText.replace(/[^0-9]/g, ""); // Remove non-numeric characters
+    const numericValue = inputText.replace(/[^0-9]/g, "");
 
-    // Limit the number of digits
-    const limitedNumericValue = numericValue.slice(0, maxDigits);
+    const numValue = numericValue.slice(0, maxDigits);
 
-    setInputValue(limitedNumericValue);
+    setInputValue(numValue);
   };
 
   return (
