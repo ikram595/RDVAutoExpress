@@ -14,70 +14,70 @@
   "type_immatricule": [
     {
       "id": 1,
-      "nom": "Serie normale (TU)",
+      "name": "Serie normale (TU)",
       "abreviation": "TU تونس",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 2,
-      "nom": "Régime suspensif (RS)",
+      "name": "Régime suspensif (RS)",
       "abreviation": "RS",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 3,
-      "nom": "Personnel administratif et technique (PAT)",
+      "name": "Personnel administratif et technique (PAT)",
       "abreviation": "PAT",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 4,
-      "nom": "Chef de Mission diplomatique (CMD)",
+      "name": "Chef de Mission diplomatique (CMD)",
       "abreviation": "CMD",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 5,
-      "nom": "Corps diplomatique (CD)",
+      "name": "Corps diplomatique (CD)",
       "abreviation": "CD",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 6,
-      "nom": "Mission Diplomatique (MD)",
+      "name": "Mission Diplomatique (MD)",
       "abreviation": "MD",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 7,
-      "nom": "Mission Consulaire (MC)",
+      "name": "Mission Consulaire (MC)",
       "abreviation": "MC",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 8,
-      "nom": "Corps consulaire (CC)",
+      "name": "Corps consulaire (CC)",
       "abreviation": "CC",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 9,
-      "nom": "Propriété de l'état (PE)",
+      "name": "Propriété de l'état (PE)",
       "abreviation": "-",
       "nbSerie": 3,
       "nbNum": 4
     },
     {
       "id": 10,
-      "nom": "Immatriculation Temporaire (IT)",
+      "name": "Immatriculation Temporaire (IT)",
       "abreviation": "IT",
       "nbSerie": 3,
       "nbNum": 4
