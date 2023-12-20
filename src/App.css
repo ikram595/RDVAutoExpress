@@ -1,0 +1,16 @@
+.leaflet-container {
+  height: 70vh;
+}
+.cluster-icon {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background: #0047ab;
+  color: #fff;
+  transform: translate(-25%, -25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}

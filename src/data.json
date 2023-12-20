@@ -1,0 +1,430 @@
+{
+  "type_immatricule": [
+    {
+      "id": 1,
+      "name": "Serie normale (TU)",
+      "abreviation": "TU تونس",
+      "nbSerie": 3,
+      "nbNum": 4
+    },
+    {
+      "id": 2,
+      "name": "Régime suspensif (RS)",
+      "abreviation": "RS ن ت",
+      "nbSerie": 6,
+      "nbNum": 0
+    },
+    {
+      "id": 3,
+      "name": "Personnel administratif et technique (PAT)",
+      "abreviation": "PAT م أ ف",
+      "nbSerie": 4,
+      "nbNum": 4
+    },
+    {
+      "id": 4,
+      "name": "Chef de Mission diplomatique (CMD)",
+      "abreviation": "CMD ر ب د",
+      "nbSerie": 4,
+      "nbNum": 4
+    },
+    {
+      "id": 5,
+      "name": "Corps diplomatique (CD)",
+      "abreviation": "CD س د",
+      "nbSerie": 4,
+      "nbNum": 4
+    },
+    {
+      "id": 6,
+      "name": "Mission Diplomatique (MD)",
+      "abreviation": "MD ب د",
+      "nbSerie": 4,
+      "nbNum": 4
+    },
+    {
+      "id": 7,
+      "name": "Mission Consulaire (MC)",
+      "abreviation": "MC ث ق",
+      "nbSerie": 4,
+      "nbNum": 4
+    },
+    {
+      "id": 8,
+      "name": "Corps consulaire (CC)",
+      "abreviation": "CC  س ق",
+      "nbSerie": 4,
+      "nbNum": 4
+    },
+    {
+      "id": 9,
+      "name": "Propriété de l'état (PE)",
+      "abreviation": "PE -",
+      "nbSerie": 2,
+      "nbNum": 6
+    },
+    {
+      "id": 10,
+      "name": "Immatriculation Temporaire (IT)",
+      "abreviation": "IT  ت م",
+      "nbSerie": 5,
+      "nbNum": 0
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Service Vidange",
+      "desc": "Le Service vidange est à réaliser lorsque le message « échéance vidange d'huile » s'affiche au porte-instrument du véhicule.Si le message indique « échéance révision » ou « échéance vidange d'huile et révision », sélectionnez le Service Entretien correspondant à l'âge et/ou au kilométrage de votre véhicule."
+    },
+    {
+      "id": 2,
+      "name": "Diagnostic mécanique",
+      "desc": "Un diagnostic auto est réalisé par un mécanicien pour sonder l’ensemble de votre voiture et y détecter le moindre problème avant que celui-ci ne se transforme en panne."
+    },
+    {
+      "id": "3",
+      "name": "Service carrosserie",
+      "desc": "La réparation de carrosserie consiste à restaurer l’état de votre voiture (aspect extérieur). Elle peut impliquer :– un remplacement des pièces– un débosselage– un redressage."
+    },
+    {
+      "id": "4",
+      "name": "Entretien périodique",
+      "desc": "C’est une question de tranquillité d’esprit. L’entretien effectué à intervalles réguliers comprend des contrôles d’inspection approfondis qui garantissent le bon fonctionnement du véhicule."
+    },
+    {
+      "id": "5",
+      "name": "Pneumatiques",
+      "desc": "Optimisez la performance de votre véhicule avec notre service pneumatique de qualité supérieure. Des pneus fiables et adaptés pour une conduite en toute sécurité."
+    },
+    {
+      "id": "6",
+      "name": "Vitrage Et Pare Brise",
+      "desc": "Service professionnel de remplacement et réparation de vitrage et pare-brise pour véhicules. Une solution rapide et fiable pour assurer la sécurité et la visibilité optimale de votre voiture."
+    },
+
+    {
+      "id": "7",
+      "name": "Climatisation",
+      "desc": "Service de climatisation automobile professionnel : Garantissez le confort optimal dans votre véhicule avec notre expertise en climatisation, offrant des diagnostics précis, des réparations efficaces et des recharges de gaz pour un habitacle toujours frais."
+    },
+    {
+      "id": "8",
+      "name": "Diagnostic électrique",
+      "desc": "Optimisez la performance de votre véhicule avec notre service de diagnostic électrique spécialisé pour les moteurs jusqu'à 2 litres. Identifiez rapidement les problèmes électriques et assurez une conduite fiable et efficiente."
+    }
+  ],
+  "ateliers": [
+    {
+      "id": "1",
+      "name": "FORD SOUSSE ( Sté 6S )",
+      "address": " AKOUDA SOUSSE 4000, AKOUDA SOUSSE",
+      "marque": ["FORD"],
+      "geocode": [35.8863279, 10.4220596],
+      "contact": ["FORD SOUSSE"]
+    },
+
+    {
+      "id": "2",
+      "name": "Concessionnaire Honda Hammam Sousse",
+      "address": "GP1 Zone industrielle akouda 4022",
+      "marque": ["HONDA"],
+      "geocode": [35.8863279, 10.4220596],
+      "contact": ["Honda Hammam Sousse"]
+    },
+
+    {
+      "id": "3",
+      "name": "MG Motors Monastir - Sahel Motors",
+      "address": "Route de Khniss, Monastir 5011",
+      "marque": ["MG"],
+      "geocode": [35.7425853, 10.8131358],
+      "contact": ["MG Monastir"]
+    },
+
+    {
+      "id": "4",
+      "name": "SAPHIR VEHICULES ET AUTOMOBILES - SERVICE APRES VENTE",
+      "address": "Nouvelle Zone Industriel, Sousse 4000",
+      "marque": ["Haval", " Great-wall ", " Foton"],
+      "geocode": [35.8284569, 10.5531833],
+      "contact": ["Haval, Great-wall , Foton sousse"]
+    },
+    {
+      "id": "5",
+      "name": "SUZUKI SOUSSE ",
+      "address": "Rue de grand maghreb arabe BP16 4011, RN1, Hammam Sousse 4011",
+      "marque": ["SUZUKI"],
+      "geocode": [35.8328737, 10.4049441],
+      "contact": ["SUZUKI SOUSSE"]
+    },
+    {
+      "id": "6",
+      "name": "Toyota Sousse ",
+      "address": "Akouda 4022 Sousse",
+      "marque": ["Toyota"],
+      "geocode": [35.8328737, 10.4049441],
+      "contact": ["Toyota Sousse"]
+    },
+    {
+      "id": "7",
+      "name": "NIMR SOUSSE ",
+      "address": "251 Route de Tunis, Hammam-Sousse, 4011 SOUSSE, 4011",
+      "marque": ["DFSK", "DONGFENG"],
+      "geocode": [35.8328737, 10.4049441],
+      "contact": ["NIMR SOUSSE"]
+    },
+    {
+      "id": "8",
+      "name": "SAHEL AUTO PASSION ",
+      "address": "Bd Dr Taieb Hachicha Sousse",
+      "marque": ["VOLKSWAGEN", "Audi"],
+      "geocode": [35.7766288, 10.4605624],
+      "contact": ["SAHEL AUTO PASSION SOUSSE"]
+    },
+    {
+      "id": "9",
+      "name": "MG Motors M'saken Sahel Motors ",
+      "address": "GP1, Route de Sousse, Masakin 4070",
+      "marque": ["MG"],
+      "geocode": [35.7766288, 10.4605624],
+      "contact": ["MG Motors M'sake SOUSSE"]
+    },
+    {
+      "id": "10",
+      "name": "AGENCE OFFICIELLE CITROËN MONASTIR",
+      "address": "ZI leghdir Monastir Monastir, 5000",
+      "marque": ["CITROEN"],
+      "geocode": [35.7621946, 10.8170189],
+      "contact": ["Citroen Monastir"]
+    },
+    {
+      "id": "11",
+      "name": "MAKIA MOTORS Monastir",
+      "address": "Zone Industrielle Route de Kheniss 5000 Monastir",
+      "marque": ["KIA"],
+      "geocode": [35.74518, 10.823114],
+      "contact": ["KIA Monastir"]
+    },
+    {
+      "id": "12",
+      "name": "Société Ennakl S.A.",
+      "address": "Sousse",
+      "marque": ["VOLKSWAGEN"],
+      "geocode": [35.8674288, 10.5814055],
+      "contact": ["Volks Wagen Sousse"]
+    },
+    {
+      "id": "13",
+      "name": "Agence Peugeot Laatiri",
+      "address": "Sousse",
+      "marque": ["Peugeot"],
+      "geocode": [35.8674374, 10.5813948],
+      "contact": ["Peugeot Sousse: "]
+    },
+    {
+      "id": "14",
+      "name": "Agence Fiat Sousse",
+      "address": "Sousse",
+      "marque": ["Fiat"],
+      "geocode": [35.8566759, 10.1200683],
+      "contact": ["fiat sousse"]
+    },
+    {
+      "id": "15",
+      "name": "Agence Citroen Monastir",
+      "address": "Monastir",
+      "marque": ["CITROEN"],
+      "geocode": [35.7642521, 10.7947949],
+      "contact": ["Citroen Monastir"]
+    },
+    {
+      "id": "16",
+      "name": "KAP AUTO Ksar Hellal",
+      "address": "Ksar Hellal, Monastir",
+      "marque": ["Peugeot"],
+      "geocode": [35.6604176, 10.8722682],
+      "contact": ["KAP AUTO Peugeot Ksar Hellal"]
+    },
+    {
+      "id": "17",
+      "name": "BRM Sousse",
+      "address": "Sousse",
+      "marque": ["Mercedes"],
+      "geocode": [35.8703533, 10.5442664],
+      "contact": ["Mercedes-Benz Sousse BRM"]
+    },
+    {
+      "id": "18",
+      "name": "Ste Slah Ayed Et Fils (Showroom)",
+      "address": "Sousse",
+      "marque": ["Volkswagen", "Audi", "Seat", "Skoda"],
+      "geocode": [35.8679719, 10.5842422],
+      "contact": ["Volkswagen,Audi,Seat,Skoda Sousse"]
+    },
+    {
+      "id": "19",
+      "name": "Concessionnaire BMW MERCEDES COPAC Détail",
+      "address": "Sousse",
+      "marque": ["BMW", "Mercedes"],
+      "geocode": [35.8605332, 10.5813515],
+      "contact": ["Concessionnaire BMW MERCEDES COPAC Détail"]
+    },
+    {
+      "id": "20",
+      "name": "KIA Hammam Sousse",
+      "address": "Hammam Sousse",
+      "marque": ["KIA"],
+      "geocode": [35.8854966, 10.5633318],
+      "contact": ["KIA Hammam Sousse"]
+    }
+  ],
+  "jours": [
+    {
+      "id": "1",
+      "date": "12/11/2023",
+      "horraires": ["10:00", "11:30", "14:00", "15:30"]
+    },
+    {
+      "id": "2",
+      "date": "12/12/2023",
+      "horraires": [
+        "08:30",
+        "09:30",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00"
+      ]
+    },
+    {
+      "id": "3",
+      "date": "12/13/2023",
+      "horraires": ["08:30", "09:30", "10:00", "11:00", "12:00", "13:00"]
+    },
+    {
+      "id": "4",
+      "date": "12/14/2023",
+      "horraires": []
+    }
+  ],
+  "numChassis": [
+    {
+      "id": 1,
+      "WMI": [
+        "ABJ",
+        "AHM",
+        "BR1",
+        "HES",
+        "VSA",
+        "WDB",
+        "WDD",
+        "WDF",
+        "W1K",
+        "55S",
+        "9BM"
+      ],
+      "marque": "Mercedes"
+    },
+    {
+      "id": 2,
+      "WMI": [
+        "MEX",
+        "PPV",
+        "VWV",
+        "WVG",
+        "WV1",
+        "XW8",
+        "YBW",
+        "1VW",
+        "2V4",
+        "3VW",
+        "9BM"
+      ],
+      "modeles": [
+        { "chiffre": "13", "model": "Scirocco 3" },
+        { "chiffre": "14", "model": "Caddy 1" },
+        { "chiffre": "15", "model": "Cabriolet " },
+        { "chiffre": ["16", "11"], "model": "Beetle " },
+        {
+          "chiffre": [
+            "17",
+            "1E",
+            "1G",
+            "1H",
+            "1J",
+            "1K",
+            "5K",
+            "5M",
+            "AU",
+            "CD"
+          ],
+          "model": "Golf "
+        },
+        {
+          "chiffreS": ["6K ", "6N", "6R", "86", "87", "9N", "AW"],
+          "model": "Polo"
+        },
+        {
+          "chiffreS": ["31", "33", "3A", "3B", "3C"],
+          "model": "Passat"
+        }
+      ],
+      "marque": "volkswagen"
+    },
+    {
+      "id": 3,
+      "WMI": ["LDC", "PNA", "SDB", "VF3", "VR3", "VS8", "8GD", "936", "9V8"],
+      "marque": "peugeot"
+    },
+    {
+      "id": 4,
+      "WMI": ["ADR", "KNM", "NM1", "VF1", "VMK", "VN1", "VS5", "8G1", "93Y"],
+      "marque": "Renault"
+    },
+    {
+      "id": 5,
+      "WMI": [
+        "KNA",
+        "KND",
+        "KNJ",
+        "LJD",
+        "MZB",
+        "PNA",
+        "U5Y",
+        "U6Y",
+        "3KP",
+        "5XX",
+        "8LG",
+        "9UW"
+      ],
+      "marque": "KIA"
+    },
+    {
+      "id": 6,
+      "WMI": ["LDC", "VF7", "VR7", "VS7", "8BC", "935", "9V7"],
+      "marque": "citroen"
+    },
+    {
+      "id": 7,
+      "WMI": [
+        "AFA",
+        "AFB",
+        "JC0",
+        "JC2",
+        "KNJ",
+        "LJX",
+        "LVS",
+        "NM0",
+        "PR8",
+        "SFA",
+        "VSK",
+        "VS6",
+        "WF0",
+        "1FT"
+      ],
+      "marque": "ford"
+    }
+  ]
+}
